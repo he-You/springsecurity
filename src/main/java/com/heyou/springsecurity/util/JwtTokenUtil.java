@@ -2,6 +2,7 @@ package com.heyou.springsecurity.util;
 
 import com.alibaba.fastjson.JSON;
 import com.heyou.springsecurity.config.JwtConfig;
+import com.heyou.springsecurity.entity.UserAndRoleInfo;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import lombok.extern.slf4j.Slf4j;
@@ -16,7 +17,7 @@ import java.util.Date;
  */
 @Slf4j
 public class JwtTokenUtil {
-    public static String createAccessToken(SelfUserEntity selfUserEntity){
+    public static String createAccessToken(UserAndRoleInfo selfUserEntity){
         // 登陆成功生成JWT
         String token = Jwts.builder()
                 // 放入用户名和用户ID

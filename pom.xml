@@ -44,11 +44,11 @@
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
         <!-- MybatisPlus 核心库 -->
-<!--        <dependency>
+        <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.1.0</version>
-        </dependency>-->
+            <version>3.1.2</version>
+        </dependency>
         <!-- 引入阿里数据库连接池 -->
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -73,6 +73,7 @@
             <artifactId>spring-security-jwt</artifactId>
             <version>1.0.9.RELEASE</version>
         </dependency>
+
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt</artifactId>
