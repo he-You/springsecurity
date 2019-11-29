@@ -28,7 +28,7 @@ public class SpringsecurityApplicationTests {
     public void contextLoads() {
         // 注册用户
         SysUserEntity sysUserEntity = new SysUserEntity();
-        sysUserEntity.setUsername("heyou");
+        sysUserEntity.setUsername("heyou2");
         sysUserEntity.setPassword(bCryptPasswordEncoder.encode("123456"));
         // 设置用户状态
         sysUserEntity.setStatus("NORMAL");
