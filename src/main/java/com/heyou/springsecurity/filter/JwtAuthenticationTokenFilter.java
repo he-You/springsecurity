@@ -77,6 +77,5 @@ public class JwtAuthenticationTokenFilter extends BasicAuthenticationFilter {
             }
         }
         filterChain.doFilter(request, response);
-        return;
     }
 }

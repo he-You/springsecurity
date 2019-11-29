@@ -1,6 +1,6 @@
 package com.heyou.springsecurity.config;
 
-import lombok.Data;
+import lombok.Getter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
@@ -10,9 +10,9 @@ import org.springframework.stereotype.Component;
  * @author heyou
  * @date 2019-11-28 23:28
  */
-@Data
+@Getter
 @Component
-//@ConfigurationProperties(prefix = "jwt")
+@ConfigurationProperties(prefix = "jwt")
 public class JwtConfig {
     /**
      * 密钥KEY
@@ -34,4 +34,24 @@ public class JwtConfig {
      * 不需要认证的接口
      */
     public static String antMatchers;
+
+    public void setSecret(String secret) {
+        this.secret = secret;
+    }
+
+    public void setTokenHeader(String tokenHeader) {
+        this.tokenHeader = tokenHeader;
+    }
+
+    public void setTokenPrefix(String tokenPrefix) {
+        this.tokenPrefix = tokenPrefix;
+    }
+
+    public void setExpiration(Integer expiration) {
+        this.expiration = expiration * 1000;
+    }
+
+    public void setAntMatchers(String antMatchers) {
+        this.antMatchers = antMatchers;
+    }
 }

@@ -25,7 +25,7 @@ import java.util.Map;
 @Slf4j
 @Component
 public class UserLoginSuccessHandler implements AuthenticationSuccessHandler {
-    @Override
+
     public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response, FilterChain chain, Authentication authentication) throws IOException, ServletException {
         // 组装JWT
         UserAndRoleInfo selfUserEntity =  (UserAndRoleInfo) authentication.getPrincipal();

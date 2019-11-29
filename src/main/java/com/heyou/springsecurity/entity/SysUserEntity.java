@@ -1,5 +1,7 @@
 package com.heyou.springsecurity.entity;
 
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 import java.io.Serializable;
 
@@ -7,11 +9,13 @@ import java.io.Serializable;
  * 系统用户实体
  */
 @Data
+@TableName("sys_user")
 public class SysUserEntity implements Serializable {
 	private static final long serialVersionUID = 1L;
 	/**
 	 * 用户ID
 	 */
+	@TableId
 	private Long userId;
 	/**
 	 * 用户名
