@@ -1,7 +1,7 @@
 package com.heyou.springsecurity.security.service;
 
 import com.heyou.springsecurity.entity.SysUserEntity;
-import com.heyou.springsecurity.entity.UserAndRoleInfo;
+import com.heyou.springsecurity.security.entity.UserAndRoleInfo;
 import com.heyou.springsecurity.service.SysUserService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.security.core.userdetails.UserDetailsService;

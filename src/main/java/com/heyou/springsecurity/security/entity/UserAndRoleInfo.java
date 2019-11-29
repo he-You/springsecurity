@@ -1,4 +1,4 @@
-package com.heyou.springsecurity.entity;
+package com.heyou.springsecurity.security.entity;
 
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;

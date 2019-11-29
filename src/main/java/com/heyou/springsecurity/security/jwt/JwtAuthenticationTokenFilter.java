@@ -1,8 +1,8 @@
-package com.heyou.springsecurity.filter;
+package com.heyou.springsecurity.security.jwt;
 
 import com.alibaba.fastjson.JSONObject;
 import com.heyou.springsecurity.config.JwtConfig;
-import com.heyou.springsecurity.entity.UserAndRoleInfo;
+import com.heyou.springsecurity.security.entity.UserAndRoleInfo;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jwts;
@@ -26,6 +26,7 @@ import java.util.Map;
 /**
  * JWT接口请求校验拦截器
  * 请求接口时会进入这里验证Token是否合法和过期
+ * @author daoyunspeace
  */
 @Slf4j
 public class JwtAuthenticationTokenFilter extends BasicAuthenticationFilter {

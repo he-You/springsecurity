@@ -1,6 +1,6 @@
 package com.heyou.springsecurity.util;
 
-import com.heyou.springsecurity.entity.UserAndRoleInfo;
+import com.heyou.springsecurity.security.entity.UserAndRoleInfo;
 import org.springframework.security.core.context.SecurityContextHolder;
 
 /**

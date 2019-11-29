@@ -1,7 +1,7 @@
 package com.heyou.springsecurity.config;
 
-import com.heyou.springsecurity.filter.JwtAuthenticationTokenFilter;
-import com.heyou.springsecurity.handler.*;
+import com.heyou.springsecurity.security.jwt.JwtAuthenticationTokenFilter;
+import com.heyou.springsecurity.security.handler.*;
 import com.heyou.springsecurity.security.UserAuthenticationProvider;
 import com.heyou.springsecurity.security.UserPermissionEvaluator;
 import org.springframework.context.annotation.Bean;

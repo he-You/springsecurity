@@ -1,7 +1,7 @@
 package com.heyou.springsecurity.controller;
 
 import com.heyou.springsecurity.entity.SysMenuEntity;
-import com.heyou.springsecurity.entity.UserAndRoleInfo;
+import com.heyou.springsecurity.security.entity.UserAndRoleInfo;
 import com.heyou.springsecurity.service.SysMenuService;
 import com.heyou.springsecurity.util.ResultUtil;
 import org.springframework.security.access.prepost.PreAuthorize;

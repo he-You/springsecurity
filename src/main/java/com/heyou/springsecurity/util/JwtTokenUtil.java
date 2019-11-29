@@ -2,7 +2,7 @@ package com.heyou.springsecurity.util;
 
 import com.alibaba.fastjson.JSON;
 import com.heyou.springsecurity.config.JwtConfig;
-import com.heyou.springsecurity.entity.UserAndRoleInfo;
+import com.heyou.springsecurity.security.entity.UserAndRoleInfo;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import lombok.extern.slf4j.Slf4j;

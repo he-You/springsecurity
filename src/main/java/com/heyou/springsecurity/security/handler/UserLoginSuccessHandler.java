@@ -1,7 +1,7 @@
-package com.heyou.springsecurity.handler;
+package com.heyou.springsecurity.security.handler;
 
 import com.heyou.springsecurity.config.JwtConfig;
-import com.heyou.springsecurity.entity.UserAndRoleInfo;
+import com.heyou.springsecurity.security.entity.UserAndRoleInfo;
 import com.heyou.springsecurity.util.JwtTokenUtil;
 import com.heyou.springsecurity.util.ResultUtil;
 import lombok.extern.slf4j.Slf4j;

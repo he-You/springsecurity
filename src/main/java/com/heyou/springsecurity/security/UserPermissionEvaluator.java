@@ -1,7 +1,7 @@
 package com.heyou.springsecurity.security;
 
 import com.heyou.springsecurity.entity.SysMenuEntity;
-import com.heyou.springsecurity.entity.UserAndRoleInfo;
+import com.heyou.springsecurity.security.entity.UserAndRoleInfo;
 import com.heyou.springsecurity.service.SysUserService;
 import org.springframework.security.access.PermissionEvaluator;
 import org.springframework.security.core.Authentication;

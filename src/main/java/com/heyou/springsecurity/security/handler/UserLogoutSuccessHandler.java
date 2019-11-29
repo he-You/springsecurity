@@ -1,4 +1,4 @@
-package com.heyou.springsecurity.handler;
+package com.heyou.springsecurity.security.handler;
 
 import com.heyou.springsecurity.util.ResultUtil;
 import org.springframework.security.core.Authentication;
